@@ -12,16 +12,12 @@ const Home: NextPage = () => {
 
       <main className="w-full">
        <div className="h-screen w-full flex 2xl:px-72 2xl:justify-start px-[10%] justify-center font-bold bg-black text-neutral-100">
-        <h1 className="self-center justify-self-center font-bold font-psans
-        xl:text-9xl lg:w-[1000px] !leading-tight
-        lg:text-8xl
-        md:text-7xl
-        text-7xl
-        ">
-        “Let’s leverage existing digital tools to make cool S#!t.”
-        </h1>
+        <h1 className="self-center justify-self-center font-bold font-psans !leading-tight 
+        xl:text-9xl lg:w-[1300px] text-[3vmax]">“Howdy 👋🏻. I leverage and expand upon digital solutions with code.”</h1>
        </div>
-       <div className="h-screen w-full bg-slate-900"></div>
+       <div className="h-screen w-full bg-black border-t-neutral-900 border-t-2">
+        
+       </div>
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">
