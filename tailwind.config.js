@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         "psans": ["IBM Plex Sans"],
         "raleway": ["Raleway"]
+      },
+      spacing: {
+        "th": "10%"
       }
     },
   },

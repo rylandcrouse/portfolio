@@ -4,7 +4,7 @@ type Props = {}
 
 const SampleSection = (props: Props) => {
   return (
-    <div>SampleSection</div>
+    <div className="px-th">SampleSection</div>
   )
 }
 
