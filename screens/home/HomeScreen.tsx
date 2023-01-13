@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import HeroSection from './sections/HeroSection'
+import SampleSection from './sections/SampleSection'
 
 type Props = {}
 
@@ -13,11 +14,9 @@ const HomeScreen = (props: Props) => {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className="w-full">
+    <main className="w-full font-psans bg-neutral-900 text-neutral-100 [&>*]:bg-black space-y-0.5">
         <HeroSection/>
-        <div className="h-screen w-full bg-black border-t-neutral-900 border-t-2">
-      
-        </div>
+        <SampleSection/>
     </main>
 
     <footer className="flex h-24 w-full items-center justify-center border-t">
