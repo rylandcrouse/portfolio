@@ -6,12 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/markdown-it": "^12.2.3",
     "framer-motion": "^8.4.3",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
