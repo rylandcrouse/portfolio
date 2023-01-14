@@ -5,6 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
 .blog-title-emoji {
     animation-name: wave-animation;
     animation-duration: 2.5s;
