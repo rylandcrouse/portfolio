@@ -4,7 +4,7 @@ type Props = {}
 
 const HeroSection = (props: Props) => {
   return (
-    <div className="sm:h-screen py-16 w-full flex 2xl:px-72 2xl:justify-start px-th justify-center font-bold">
+    <div className="sm:h-screen pt-24 pb-14 w-full flex 2xl:px-72 2xl:justify-start px-th justify-center font-bold">
       <h1 className="self-center justify-self-center font-semibold !leading-tight 
       xl:text-8xl sm:text-[4vmax] text-3xl">
         “Howdy <span className="blog-title-emoji">👋🏻</span>. I leverage and expand upon digital solutions with code.”
