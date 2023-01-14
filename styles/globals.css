@@ -47,7 +47,6 @@
     animation-duration: 2s;
     animation-iteration-count: 1;
     transform-origin: 70% 70%;
-    display: inline-block;
 }
 
 @keyframes guitar-animation {

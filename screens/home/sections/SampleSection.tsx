@@ -5,13 +5,12 @@ type Props = {}
 
 const SampleSection = (props: Props) => {
   return (
-    <div className="lg:px-[5%] lg:py-0 sm:py-4 lg:min-h-[90vh] w-full
-        flex items-center
+    <div className="px-th lg:min-h-[90vh] min-w-full h-full
+        flex items-center justify-around lg:space-x-10 lg:space-y-0 space-y-6 space-x-0 py-8
         flex-col lg:flex-row
-        space-x-0 lg:space-x-12 lg:space-y-0 md:space-y-5
-        text-2xl font-medium">
+        text-xl font-medium">
         <Sample title="Automate Zoning Code Search with ChatGPT" emoji="🎸" repoURL="github.com/rylandcrouse/"/>
-        <Sample title="Automate Zoning Code Search with ChatGPT" emoji="🎸" repoURL="github.com/rylandcrouse/portfolio"/>
+        <Sample title="Fretboard Exersize" emoji="🎸" repoURL="github.com/rylandcrouse/portfolio"/>
         <Sample title="Automate Zoning Code Search with ChatGPT" emoji="🎸" repoURL="http://github.com/rylandcrouse/portfolio"/>
     </div>
   )
