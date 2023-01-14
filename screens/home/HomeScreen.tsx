@@ -14,7 +14,7 @@ const HomeScreen = (props: Props) => {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className="w-full bg-neutral-900 text-neutral-100 [&>*]:bg-black sm:space-y-0.5">
+    <main className="w-full bg-neutral-900 text-neutral-100 [&>*]:bg-black sm:space-y-px">
         <HeroSection/>
         <SampleSection/>
     </main>
