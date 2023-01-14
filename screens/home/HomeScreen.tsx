@@ -19,14 +19,13 @@ const HomeScreen = (props: Props) => {
         <SampleSection/>
     </main>
 
-    <footer className="flex h-24 w-full items-center justify-center bg-black border-neutral-900 border-t">
+    <footer className="flex px-6 h-20 w-full items-center justify-end bg-black border-neutral-900 border-t">
       <a
         className="flex items-center justify-center gap-4 text-sm"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by{' '}
         <div className="w-10 h-10 relative overflow-hidden rounded-full">
           <Image src="/me.png" alt="Vercel Logo" fill={true} />
         </div>
