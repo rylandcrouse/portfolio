@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout = ({children}: LayoutProps) => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center antialiased bg-black border-neutral-900 text-neutral-100'>
+    <div className='flex flex-col items-center justify-center antialiased bg-black border-neutral-900 text-neutral-100'>
         <Header/>
         {children}
     </div>
