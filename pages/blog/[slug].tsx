@@ -7,13 +7,13 @@ import BlogScreen from '../../screens/blog/BlogScreen';
 
 const Blog: NextPage<BlogPostProps> = ({ frontMatter, markdownBody }: BlogPostProps) => {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center antialiased bg-black border-neutral-900 text-neutral-100">
+        <>
             <Head>
             <title>Ryland Crouse</title>
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <BlogScreen {...{frontMatter, markdownBody}}/>
-        </div>
+        </>
     )
 }
 
