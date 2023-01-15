@@ -9,7 +9,7 @@ const Header = (props: Props) => {
     bg-gradient-to-r from-zinc-700/20 to-slate-700/10 border-inherit border-b space-x-16">
       <Link href="/blog">Home</Link>
       <Link href="/blog">Showcase</Link>
-      <Link href="/blog">Blog</Link>
+      <Link href="/blog/a">Blog</Link>
       <Link href="/blog">Info</Link>
     </header>
   )
