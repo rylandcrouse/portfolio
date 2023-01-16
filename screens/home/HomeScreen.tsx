@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import SocialBanner from '../../components/Banner'
 import HeroSection from './sections/HeroSection'
 import SampleSection from './sections/SampleSection'
 
@@ -17,6 +18,7 @@ const HomeScreen = (props: Props) => {
   
     <main className="w-full sm:space-y-px">
         <HeroSection/>
+        <SocialBanner/>
         <SampleSection/>
     </main>
 
@@ -27,9 +29,6 @@ const HomeScreen = (props: Props) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="w-10 h-10 relative overflow-hidden rounded-full">
-          <Image src="/me.png" alt="Vercel Logo" fill={true} />
-        </div>
       </a>
     </footer>
   </>
