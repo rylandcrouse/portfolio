@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import SocialBanner from '../../components/Banner'
 import HeroSection from './sections/HeroSection'
 import SampleSection from './sections/SampleSection'
 
@@ -18,7 +15,6 @@ const HomeScreen = (props: Props) => {
   
     <main className="w-full sm:space-y-px">
         <HeroSection/>
-        <SocialBanner/>
         <SampleSection/>
     </main>
 
