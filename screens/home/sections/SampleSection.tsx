@@ -5,8 +5,8 @@ type Props = {}
 
 const SampleSection = (props: Props) => {
   return (
-    <div className="min-w-full h-full px-7 sm:px-0
-        flex items-center justify-around sm:space-y-0 space-y-4
+    <div className="min-w-full h-full px-0
+        flex items-center justify-around
         flex-col sm:flex-row
         text-xl max-xl:text-base">
         <Sample title="Automate Hotel Booking for Employees" emoji="🏨" repoURL="http://github.com/rylandcrouse/portfolio"/>
