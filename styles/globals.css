@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+body {background-color: black;}
 
 
 .no-scrollbar::-webkit-scrollbar {
